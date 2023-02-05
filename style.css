@@ -4,9 +4,19 @@
   box-sizing:border-box}
 
   body{
-    background-color: lightseagreen;
-  }
+    position: absolute;
 
+    background-color: lightseagreen;
+    max-height: 100vh;
+        max-width: 100vh;
+    
+
+  }
+.chilisBody{
+  top: 50%;
+  transform: translate(50%,50%);
+
+}
 .chilisHead{
     position: relative;
     background-color: rgb(236, 212, 212);
@@ -283,12 +293,7 @@ content: "";
 }
 
 
-.chilisBody{
-  position: relative;
-  z-index: 1;
-  top: 10vh;
-  left: 20vh;
-}
+
 
 .ears{
 
