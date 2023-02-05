@@ -307,8 +307,8 @@ box-shadow: -30.6vh .1vh rgb(236, 212, 212);
 
 .colitas{
 position: absolute;
-left: 28.8vh;
-top:-4.3vh;
+left: 28.5vh;
+top:-5vh;
   background-color: transparent;
   border-top: 5vh solid  rgb(34, 9, 9);
   border-right: 2vh solid  transparent;
@@ -327,8 +327,8 @@ z-index: -2;
 .colitas::after{
   content: "";
 position: absolute;
-left: -51vh;
-top:-17vh;
+left: -50vh;
+top:-14vh;
   background-color: transparent;
   border-top: 5vh solid  rgb(34, 9, 9);
   border-right: 2vh solid  transparent;
@@ -355,7 +355,7 @@ height: 5vh;
 width: 5vh;
 border-radius: 50% ;
 margin: 10vh;
-box-shadow: -2.5vh 2vh yellow,2vh 2vh yellow;
+box-shadow: -2vh 2vh yellow,2vh 2vh yellow;
 z-index: -1;
 border-bottom: .1vh solid rgb(160, 146, 146);
 
@@ -395,12 +395,13 @@ width: 0;
 .topL{
 
   position: absolute;
-left: 21vh;
-top:28vh;
-
-z-index: -2;
-border-bottom: .1vh solid rgb(160, 146, 146);
-border-radius: 2vh 0;
+  left: 20vh;
+  top:28vh;
+  border-radius: 50%;
+  
+  
+  width: 0;
+      height: 0;
 
 width: 0;
     height: 0;
@@ -415,12 +416,10 @@ width: 0;
 .topR{
 
   position: absolute;
-left: 26.2vh;
+left: 27vh;
 top:28vh;
+border-radius: 50%;
 
-z-index: -2;
-border-bottom: .1vh solid rgb(160, 146, 146);
-border-radius: 0 2vh;
 
 width: 0;
     height: 0;
@@ -592,18 +591,18 @@ height: 2vh;
 width: 1.5vh;
 border-radius: 50% ;
 margin: 10vh;
-box-shadow: 16.4vh -1.4vh rgb(236, 212, 212);
+box-shadow: 16.4vh -1.4vh rgb(236, 212, 212), -7.5vh -27vh 0 .5vh yellow,23.5vh -28vh 0 .5vh yellow;
 
 }
 
 .shoes{
   position: absolute;
-      top: 25vh; 
+      top: 25.5vh; 
       right: .9vh; 
-      width: 3.2vh; 
+      width: 3.1vh; 
       height: 3vh;
       border-radius: 0 0 60% 60%;
       background-color:black;
-      box-shadow: 5vh -.2vh;
+      box-shadow: 5vh -.1vh;
 
 }
